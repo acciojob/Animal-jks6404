@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+*{
+    background-color: #757575;
+}
+
+.photo-heading{
+	text-align:center;
+	color:white;
+	weight:7000;
+}
+.picture{
+	display:grid;
+	grid-template-columns: repeat(3,auto);
+	width=90%
+	flex-wrap:none;
+	justify-content:center;
+	
+}
+.picture > img{
+    border-radius: 25px;
+    padding: 10px 10px;
+}
