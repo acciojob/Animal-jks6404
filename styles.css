@@ -2,20 +2,24 @@
 *{
     background-color: #757575;
 }
-
-#photo-heading{
-	text-align:center;
-	color:white;
+.animal-photos h1{
+    color: white;
+    text-align: center;
 }
 .animals{
-	display:grid;
-	grid-template-columns: repeat(3,auto);
-	width=90%
-	flex-wrap:none;
-	justify-content:center;
-	
+	width:90%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(3,auto); */
+    justify-content: center;
 }
 .animals > img{
     border-radius: 25px;
     padding: 10px 10px;
 }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
