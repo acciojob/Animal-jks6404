@@ -5,6 +5,7 @@
 .animal-photos h1{
     color: white;
     text-align: center;
+	justify-content:center;
 }
 .animals{
 	width:90%;
