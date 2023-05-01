@@ -7,7 +7,7 @@
 	text-align:center;
 	color:white;
 }
-.picture{
+.animals{
 	display:grid;
 	grid-template-columns: repeat(3,auto);
 	width=90%
@@ -15,7 +15,7 @@
 	justify-content:center;
 	
 }
-.picture > img{
+.animals > img{
     border-radius: 25px;
     padding: 10px 10px;
 }
